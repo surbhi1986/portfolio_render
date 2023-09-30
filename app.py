@@ -1,18 +1,18 @@
 import streamlit as st
 import requests
-import streamlit_lottie as st_lottie
-from streamlit_lottie import st_lottie_spinner
+# import streamlit_lottie as st_lottie
+# from streamlit_lottie import st_lottie_spinner
 import json
 import time
 from PIL import Image
 
 st.set_page_config(page_title="My Webpaje", page_icon= ':tada:', layout="wide")
 
-def load_lottieurl(url):
-    r=requests.get(url)
-    if r.status_code!=200:
-        return None
-    return r.json()
+# def load_lottieurl(url):
+#     r=requests.get(url)
+#     if r.status_code!=200:
+#         return None
+#     return r.json()
 
 # ---use local CSS ----
 def local_css(file_name):
