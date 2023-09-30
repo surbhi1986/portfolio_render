@@ -23,7 +23,7 @@ local_css("style/style.css")
 
 # ----- Header section --------
 with st.container():
-    st.subheader("Hi Everone, I am Dr. Sharma :wave:")
+    st.subheader("Hi Everyone, I am Dr. Sharma :wave:")
     st.title("I am head of Data science department in an IT firm from India")
     st.write("I am passonate about computer vission and AI using python. I am a learer by heart")
 
