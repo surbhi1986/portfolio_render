@@ -29,7 +29,7 @@ with st.container():
 
 # ----- load Assests 
 # load_lotties=load_lottieurl(lottie_url = "https://assets5.lottiefiles.com/packages/lf20_V9t630.json")
-image = Image.open('D:\portfolio\media\Applications-of-Artificial-Intelligence.png')
+image = Image.open('media\Applications-of-Artificial-Intelligence.png')
 
 # -----My Responsibilities
 with st.container():
